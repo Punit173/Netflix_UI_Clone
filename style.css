@@ -3,9 +3,14 @@
     font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
 
+.gap{
+    display: flex;
+    gap: 30px;
+}
+
 .navbar{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     margin-top: 15px;
     align-content: center;
@@ -27,7 +32,7 @@
 
 .content{
     display: flex;
-    margin-top: 140px;
+    margin-top: 180px;
     flex-direction: column;
     align-items: center;
     color: white;
@@ -37,11 +42,11 @@
 }
 
 .content h2{
-    font-size: 32px;
+    font-size: 3em;
 }
 
 .content p{
-    font-size: 18px;
+    font-size: 1.5em;
 }
 
 .subcont{
@@ -64,9 +69,9 @@
 .bg{
     background-image: url(./images/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_small.jpg);
     /* background-size: cover; */
-    box-shadow: inset 0 0 5em 1em #000;
+    box-shadow: inset 0 0 10em 10em #000;
     padding: 5px 10px 5px 10px ;
-    height: 65vh;
+    height: 95vh;
 }
 
 .getstart{
@@ -78,12 +83,12 @@
     background-color: #e50914;
     color: #ffffff;
     height: 7vh;
-    width: 30vw;
+    width: 15vw;
     border-radius: 4px;
 }
 
 .content input{
-    width: 40vw;
+    width: 25vw;
     box-shadow: inset 0 0 5em 1emrgba(95, 14, 245, 0)0;
     background-color: transparent;
     color:#ffffff;
@@ -97,4 +102,32 @@
     box-shadow: inset 0 0 5em 1emrgba(95, 14, 245, 0)0;
     background-color: transparent;
     color: lightgray;
+}
+.blank_line{
+    background-color: #382e2e;
+    height: 1vh;
+}
+
+.second_part{
+    display: flex;
+    background-color: #000;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    height: 20vh;
+}
+
+.second_part h1{
+    font-size: 55px;
+}
+
+.second_part p{
+    font-size: 25px;
+}
+
+.separate{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
